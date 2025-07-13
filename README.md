@@ -106,6 +106,7 @@ shapeThird = {
 ## Support & Community
 
 Join our [Discord Server](https://discord.gg/zH9fsKkBUP) to get support, submit bug reports, or suggest new face types to add.
+All Updates will now be visiblein #NotEnoughtFaces chanell!
 
 ---
 
