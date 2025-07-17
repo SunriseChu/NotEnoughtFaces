@@ -31,7 +31,8 @@ This readme provides instructions on how to install and configure NotEnoughtFace
 1. Open client/main.lua,
 2. Find this block: 
 
-```if v.type == "face" then
+```
+if v.type == "face" then
     maxModelValues[k].item = 45
     maxModelValues[k].texture = 15
 end
@@ -44,7 +45,8 @@ end
 
 3. Replace it with:
 
-```if v.type == "face" then
+```
+if v.type == "face" then
     maxModelValues[k].item = 100
     maxModelValues[k].texture = 15
 end
@@ -60,7 +62,8 @@ end
 1. Open game/customization.lua,
 2. Find this block: 
 
-```shapeFirst = {
+```
+shapeFirst = {
     min = 0,
     max = 45
 },
@@ -76,7 +79,8 @@ shapeThird = {
 
 3. Replace it with:
 
-```shapeFirst = {
+```
+shapeFirst = {
     min = 0,
     max = 100
 },
@@ -95,12 +99,14 @@ shapeThird = {
 1. Open crm-appearance/crm-config.lua,
 2. Find this block: 
 
-```crm_config.crm_faces_max = 45 -- Default: 45
+```
+crm_config.crm_faces_max = 45 -- Default: 45
 ```
 
 3. Replace it with:
 
-```crm_config.crm_faces_max = 100 -- Default: 45
+```
+crm_config.crm_faces_max = 100 -- Default: 45
 ```
 
 ## vRP/Custom
