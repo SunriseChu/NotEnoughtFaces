@@ -1,4 +1,4 @@
-# NotEnoughtFaces v1.0.0 (Release)
+# NotEnoughtFaces v1.0.1 (Release)
 # FiveM MP Freemode Additional Faces Instructions
 
 ## Overview
@@ -90,6 +90,18 @@ shapeThird = {
 },
 ```
 
+### QBox crm
+
+1. Open crm-appearance/crm-config.lua,
+2. Find this block: 
+
+```crm_config.crm_faces_max = 45 -- Default: 45
+```
+
+3. Replace it with:
+
+```crm_config.crm_faces_max = 100 -- Default: 45
+```
 
 ## vRP/Custom
 
